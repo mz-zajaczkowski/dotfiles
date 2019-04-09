@@ -46,3 +46,4 @@ set wildmenu
 set hidden
 set mouse=a
 set pastetoggle=<F3>
+set listchars=tab:>-,trail:.,precedes:<,extends:>,eol:$,space:.
