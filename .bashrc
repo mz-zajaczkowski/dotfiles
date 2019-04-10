@@ -49,3 +49,5 @@ if [ -t 0 ]
 then
     screen -ls
 fi
+
+function dtached () { dtach -n `mktemp -u /tmp/dtached.XXX` "$1"; }
